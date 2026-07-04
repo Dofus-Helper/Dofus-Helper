@@ -2,9 +2,10 @@
 
 # 🐉 Dofus Helper
 
-**Un assistant Windows pour gérer plus vite vos fenêtres Dofus, vos raccourcis et vos ressources utiles.**
+**Un assistant Windows et macOS Intel pour gérer plus vite vos fenêtres Dofus, vos raccourcis et vos ressources utiles.**
 
 ![Windows](https://img.shields.io/badge/Windows-10%2F11-2b6cb0?style=for-the-badge&logo=windows&logoColor=white)
+![macOS Intel](https://img.shields.io/badge/macOS-Intel-111111?style=for-the-badge&logo=apple&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-Application-3776ab?style=for-the-badge&logo=python&logoColor=white)
 ![Dofus](https://img.shields.io/badge/Dofus-Retro%20%26%20Unity-9bd24b?style=for-the-badge)
 ![Fan Made](https://img.shields.io/badge/Fan--made-Tool-18323a?style=for-the-badge)
@@ -15,7 +16,7 @@
 
 ## ✨ Présentation
 
-**Dofus Helper** est un outil conçu pour simplifier la gestion de plusieurs fenêtres Dofus et centraliser les actions utiles au quotidien.
+**Dofus Helper** est un outil conçu pour simplifier la gestion de plusieurs fenêtres Dofus et centraliser les actions utiles au quotidien, avec une version pour **Windows** et une version pour **macOS Intel**.
 
 Il permet notamment de :
 
@@ -95,12 +96,27 @@ Les raccourcis et la centralisation des actions peuvent aussi aider les joueurs 
 
 ## 📦 Installation
 
-1. Téléchargez la dernière version depuis la section **Releases** du dépôt GitHub.
+Téléchargez la dernière version depuis la section **Releases** du dépôt GitHub, puis choisissez le fichier adapté à votre système.
+
+### Windows
+
+1. Téléchargez la version **Windows**.
 2. Récupérez le fichier `.exe`.
 3. Lancez l’application.
 4. Ajoutez vos personnages dans l’onglet **Personnages**.
 5. Configurez vos raccourcis dans l’onglet **Raccourcis**.
 6. Activez ou masquez les modules souhaités depuis **Paramètres**.
+
+### macOS Intel
+
+1. Téléchargez la version **macOS Intel** depuis les **Releases**.
+2. Ouvrez le fichier téléchargé, puis lancez **Dofus Helper**.
+3. Si macOS bloque l’ouverture, allez dans **Réglages Système > Confidentialité et sécurité**, puis autorisez l’application.
+4. Accordez les permissions demandées si nécessaire, notamment pour les raccourcis clavier et la gestion des fenêtres.
+5. Ajoutez vos personnages dans l’onglet **Personnages**.
+6. Configurez vos raccourcis dans l’onglet **Raccourcis**.
+
+> La version macOS mentionnée ici cible les Mac **Intel**. Elle n’est pas destinée aux Mac Apple Silicon, sauf compatibilité via Rosetta selon votre configuration.
 
 ---
 
@@ -141,6 +157,10 @@ Dofus Helper est développé en Python.
 ### Windows affiche un avertissement au lancement. Est-ce normal ?
 
 Oui. Comme l’application peut utiliser des raccourcis clavier et interagir avec les fenêtres ouvertes, Windows peut afficher un avertissement de sécurité, surtout si l’exécutable n’est pas signé numériquement.
+
+### macOS bloque l’application. Que faire ?
+
+Sur macOS Intel, ouvrez **Réglages Système > Confidentialité et sécurité**, puis autorisez Dofus Helper si le système indique que l’application provient d’un développeur non identifié. Selon votre configuration, vous devrez aussi autoriser les permissions liées à l’accessibilité, aux raccourcis clavier ou au contrôle des fenêtres.
 
 ### L’application modifie-t-elle les fichiers du jeu ?
 
@@ -205,6 +225,6 @@ Vous pouvez aussi les déplacer dans un dossier `assets/`, mais il faudra alors 
 
 <div align="center">
 
-**Dofus Helper — un compagnon pratique pour vos sessions Dofus Retro et Unity.**
+**Dofus Helper — un compagnon pratique pour vos sessions Dofus Retro et Unity, sur Windows et macOS Intel.**
 
 </div>
